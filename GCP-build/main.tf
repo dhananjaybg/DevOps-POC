@@ -1,7 +1,7 @@
 provider "google" {
   project     = var.GCP_PROJECT_ID
   region      = "us-central1"
-  credentials = file("atlas-peered-aa005619c5fa.json")
+  credentials = file("/Users/dghevde/gcp-creds/atlas-peered-aa005619c5fa.json")
 }
 
 resource "google_compute_network" "vpc" {
@@ -53,7 +53,7 @@ resource "google_compute_instance" "default" {
     }
   }
   ##metadata_startup_script = "echo hi > /djtest.txt"
-  metadata_startup_script = "${file("loadmongo-shell-2.sh")}"
+  metadata_startup_script = file("loadmongo-shell-2.sh")
   ##metadata {
   ##    startup-script = <<SCRIPT
   ##    sudo apt update
