@@ -1,7 +1,9 @@
 #!/bin/bash -   
 # https://www.mongodb.com/blog/post/manage-atlas-database-secrets-hashicorp-vault
 
+# setting the local vault server
 export VAULT_ADDR='http://127.0.0.1:8200'
+
 
 
 # activate the API secrets
