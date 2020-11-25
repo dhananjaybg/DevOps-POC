@@ -2,9 +2,9 @@ variable "cluster_name" { default = "cvs2-cluster-gcp" }
 variable "project_name" { default = "cvs2-project-gcp" }
 
 
-variable "atlas_org_id" { default = "5dd28f459ccf64a539ae0817" }
-variable "atlas_public_key" { default = "hucaecjq" }
-variable "atlas_private_key" { default = "73ad2035-da5f-4799-a7fe-3896f01772bc" }
+variable "atlas_org_id" { default = "XXXXXXXXXXXXX" }
+variable "atlas_public_key" { default = "XXXXXX" }
+variable "atlas_private_key" { default = "XXXXXXXXXXXXXXXXXXX" }
 
 variable "GCP_PROJECT_ID" { default = "atlas-peered-294702" }
 variable "public_subnet_cidr" { default = "10.15.0.0/16" }
