@@ -31,3 +31,5 @@ override.tf.json
 GCP-build/atlas-peered-aa005619c5fa.json
 workspace.code-workspace
 Terraform/atlas-peered-aa005619c5fa.json
+Terraform/variables.tf
+Terraform/variables.tf
