@@ -1,8 +1,8 @@
-# CVS-Health-POC
+# Dev-Ops-POC
 
 This is a all-in-one folder for CVS-POC v1
 
-## CVS-VAULT
+## Dev-Ops-VAULT
 -command lines to access vault
 -create dynamic users with expiry
 -test users 
