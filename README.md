@@ -1,8 +1,8 @@
-# Dev-Ops-POC
+# DevOps-POC
 
-This is a all-in-one folder for CVS-POC v1
+This is a all-in-one folder for DevOps-POC v1
 
-## Dev-Ops-VAULT
+## DevOps-VAULT
 -command lines to access vault
 -create dynamic users with expiry
 -test users 
